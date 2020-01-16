@@ -19,7 +19,12 @@ def get_japanese_emoticon(path,emoji)
   load_library(path)
   # code goes here
    product = load_library(path)['get_emoticon'][emoji]
+<<<<<<< HEAD
   product ? product : "Sorry, that emoticon was not found"
+=======
+
+  product ? product : "apology, not found"
+>>>>>>> b15128020aa0221f351c1e2def02676b179dcffc
 end
 
 def get_english_meaning(path,emoji)
